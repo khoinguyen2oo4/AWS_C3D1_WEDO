@@ -1,0 +1,12 @@
+.git/
+.gitignore
+**/node_modules/
+**/target/
+**/uploads/
+**/.env
+!**/.env.example
+!.env.docker.example
+**/dist/
+**/.idea/
+**/*.iml
+agent-transcripts/
