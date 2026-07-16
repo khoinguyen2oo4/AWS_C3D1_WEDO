@@ -74,6 +74,7 @@ AWS_C3D1_WEDO/
 ├── 7-Feedback/               # Đóng góp ý kiến
 └── README.md                 # Executive Summary (Bạn đang xem file này)
 
+``` ---
 
 👤 Thông tin Tác giả
 Nguyễn Đình Khôi — Sinh viên Ngành Công nghệ thông tin, Đại học Công nghệ TP.HCM (HUTECH) - Lớp 22DTHA1.
