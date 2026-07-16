@@ -15,4 +15,4 @@ This article introduces a real-world architectural approach to deploying Spring 
 
 **Evaluation**: The solution effectively addresses Java's Cold Start challenge, supports seamless auto-scaling, and optimizes operational costs for enterprises undergoing system modernization or transitioning to Microservices
 
-![AI Diet Tracker Architecture Diagram](images/3-blogsposted/blog2/blog2.png)
+![AI Diet Tracker Architecture Diagram](/AWS_C3D1_WEDO/images/3-blogsposted/blog2/blog2.png)

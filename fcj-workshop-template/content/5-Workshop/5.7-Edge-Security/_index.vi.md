@@ -15,7 +15,7 @@ Thay vì để người dùng truy cập trực tiếp vào S3 (có độ trễ 
 * **Origin:**
   * Origin type: Chọn **Amazon S3**.
   * Origin domain: Chọn Bucket `wedo-frontend-2026` chứa mã nguồn React.
-![Cấu hình CloudFront Origin](images/5-Workshop/5.7-Edge-Security/cloudfront-origin.jpg)
+![Cấu hình CloudFront Origin](/AWS_C3D1_WEDO/images/5-Workshop/5.7-Edge-Security/cloudfront-origin.jpg)
 
 ### 5.7.2. Tích hợp Tường lửa ứng dụng web (AWS WAF)
 WAF được tích hợp trực tiếp vào CloudFront để lọc các luồng traffic độc hại (ví dụ: DDoS ở layer 7, SQL Injection, XSS) trước khi chúng kịp chạm tới S3 hay Backend.
@@ -23,10 +23,10 @@ WAF được tích hợp trực tiếp vào CloudFront để lọc các luồng 
 * Tại mục **Enable security** trong lúc tạo CloudFront:
   * Tích chọn bật **Web Application Firewall (WAF)**.
   * Lựa chọn này giúp tự động chặn các IP có rủi ro cao dựa trên hệ thống phân tích tình báo của AWS.
-![Bật bảo mật WAF cho CloudFront](images/5-Workshop/5.7-Edge-Security/cloudfront-waf.png)
+![Bật bảo mật WAF cho CloudFront](/AWS_C3D1_WEDO/images/5-Workshop/5.7-Edge-Security/cloudfront-waf.png)
 
 * Cuộn xuống dưới cùng, kiểm tra lại toàn bộ thông tin tại mục **Review and create** và nhấn **Create distribution**.
-![Xác nhận tạo CloudFront](images/5-Workshop/5.7-Edge-Security/cloudfront-create.jpg)
+![Xác nhận tạo CloudFront](/AWS_C3D1_WEDO/images/5-Workshop/5.7-Edge-Security/cloudfront-create.jpg)
 
 ### 5.7.3. Định tuyến tên miền (Amazon Route 53)
 Để người dùng truy cập bằng tên miền dễ nhớ (ví dụ: `wedo-workspace.com`) thay vì một đường dẫn dài của CloudFront, chúng ta sử dụng Amazon Route 53.

@@ -84,8 +84,8 @@ Participating in the **“FCAJ Community Day”** event was a wonderful experien
 - Time pressure can absolutely become a leverage point to create breakthrough products if there is a clear strategy.
 
 #### Event Photos
-![Check-in at FCAJ event](images/4-EventParticipated/event2/checkin.jpg)
+![Check-in at FCAJ event](/AWS_C3D1_WEDO/images/4-EventParticipated/event2/checkin.jpg)
 
-![Check-in at Floor 36 Bitexco Tower](images/4-EventParticipated/event2/checkin_tang36_event2.jpg)
+![Check-in at Floor 36 Bitexco Tower](/AWS_C3D1_WEDO/images/4-EventParticipated/event2/checkin_tang36_event2.jpg)
 
 > Overall, the event not only provided a massive amount of practical knowledge but also helped me reshape my product development mindset, thereby preparing a more solid foundation for my internship journey at First Cloud AI Journey.

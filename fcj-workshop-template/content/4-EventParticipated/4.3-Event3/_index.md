@@ -59,9 +59,9 @@ Participating in the **“GameDay - Battle of the 8 Teams”** event was one of 
 
 *The competing team's photo*
 
-![Event GameDay](images/4-EventParticipated/event3/event3-1.JPG)
+![Event GameDay](/AWS_C3D1_WEDO/images/4-EventParticipated/event3/event3-1.JPG)
 
 *Evidence*
-![Event GameDay](images/4-EventParticipated/event3/event3-2.JPG)
+![Event GameDay](/AWS_C3D1_WEDO/images/4-EventParticipated/event3/event3-2.JPG)
 
 > Overall, the GameDay event was not just a competition, but a perfect practical drill. It helped me become much more confident in my AWS operational capabilities and forged an iron will when facing real-world system incidents.

@@ -14,7 +14,7 @@ Instead of manual operations on the AWS Console, administrators can use the comm
 
 #### Step 1: Core Layer Cleanup (App & Data)
 Includes the ECS server cluster, Application Load Balancer, and database system.
-![Cleanup Core](images/5-Workshop/5.10-Cleanup/Det_App&Data.jpg)
+![Cleanup Core](/AWS_C3D1_WEDO/images/5-Workshop/5.10-Cleanup/Det_App&Data.jpg)
 
 **Delete RDS PostgreSQL database (Skip the final snapshot creation):**
 ```bash
@@ -41,7 +41,7 @@ aws elbv2 delete-load-balancer \
 
 #### Step 2: Network Layer Cleanup (Network)
 Includes internal routing and communication gateways.
-![Cleanup Network](images/5-Workshop/5.10-Cleanup/Det_Network.jpg)
+![Cleanup Network](/AWS_C3D1_WEDO/images/5-Workshop/5.10-Cleanup/Det_Network.jpg)
 
 **Delete NAT Gateway (The most expensive resource):**
 ```bash
@@ -54,7 +54,7 @@ aws ec2 delete-nat-gateway \
 
 #### Step 3: Edge Layer Cleanup (Global & Edge)
 Finally, remove the static content distribution cache and the outer protection layer.
-![Cleanup Edge](images/5-Workshop/5.10-Cleanup/Det_Global.jpg)
+![Cleanup Edge](/AWS_C3D1_WEDO/images/5-Workshop/5.10-Cleanup/Det_Global.jpg)
 
 **Delete all data and Frontend S3 Bucket:**
 ```bash

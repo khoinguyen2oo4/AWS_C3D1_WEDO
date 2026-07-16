@@ -54,7 +54,7 @@ Sự kiện có sự góp mặt và chia sẻ từ các thành viên nòng cốt
 
 
 *Slide giới thiệu Code chuẩn Engineering*
-![Code Chuẩn Engineering](images/4-EventParticipated/event1/event1.jpg)
+![Code Chuẩn Engineering](/AWS_C3D1_WEDO/images/4-EventParticipated/event1/event1.jpg)
 
 
 

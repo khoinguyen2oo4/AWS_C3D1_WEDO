@@ -15,4 +15,4 @@ The current system satisfies the standards of the AWS Well-Architected Framework
 ### 5.9.2. Production Environment
 * The user interface is being distributed globally at ultra-high speed via the edge network (S3 + CloudFront).
 * The Backend operates stably and handles thousands of concurrent requests safely behind the Application Load Balancer in the Private Subnet.
-![Go-live Screen](images/5-Workshop/5.9-Deployment/wedo-live.jpg)
+![Go-live Screen](/AWS_C3D1_WEDO/images/5-Workshop/5.9-Deployment/wedo-live.jpg)

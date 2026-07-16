@@ -17,7 +17,7 @@ This article introduces a practical architecture utilizing the AWS Serverless pl
 * **Decoupled Microservices Architecture:** The user interface (Frontend) developed with Flutter communicates completely independently with the Backend processing flow via API endpoints. This keeps the system flexible, making it easy to replace or expand to custom-trained Computer Vision models in the future without affecting the user experience.
 * **Observability and Secure Storage:** Storing all original images securely on Amazon S3 for future tracking, while closely monitoring system performance, latency, and exceptions via Amazon CloudWatch.
 
-![AI Diet Tracker Architecture Diagram](images/3-blogsposted/blog1/blog1.jpg)
+![AI Diet Tracker Architecture Diagram](/AWS_C3D1_WEDO/images/3-blogsposted/blog1/blog1.jpg)
 
 **Detailed Implementation Guide:**
 

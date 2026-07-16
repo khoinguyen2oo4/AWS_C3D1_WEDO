@@ -49,7 +49,7 @@ The project was executed by a team of 5 members, using a shared AWS account (Sha
 *(Note: Modules 1, 2, and 12 were collaboratively executed by the entire team).*
 
 ### 5.1.7. Production Flow
-![WeDo Workspace Architecture](images/2-Proposal/Blog_Wedo_KT.jpg)
+![WeDo Workspace Architecture](/AWS_C3D1_WEDO/images/2-Proposal/Blog_Wedo_KT.jpg)
 
 **Legend/Step descriptions on the diagram:**
 1. **DNS Resolution**: Domain name resolution via Route 53.

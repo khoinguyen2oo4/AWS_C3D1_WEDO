@@ -27,7 +27,7 @@ Giải pháp tạo ra một không gian làm việc số tập trung, giúp các
 ### 3. Kiến trúc giải pháp  
 Nền tảng WeDo Workspace áp dụng kiến trúc Containerization trên AWS với mô hình Đa vùng sẵn sàng (Multi-AZ) để quản lý quy trình làm việc và tài liệu dự án. Giao diện web tĩnh được lưu trữ trên S3 và phân phối siêu tốc qua CloudFront, bảo vệ bởi WAF. Các luồng xử lý API động được điều hướng qua Application Load Balancer (ALB) đến các container Backend (Spring Boot) chạy trên Amazon ECS đặt trong Private Subnet. Dữ liệu hệ thống được lưu trữ an toàn và đồng bộ thông qua Amazon RDS (Cơ sở dữ liệu) và Amazon EFS, trong khi tài liệu nộp của người dùng được đẩy trực tiếp lên S3.
 
-![Wedo_Workspace](images/2-Proposal/Blog_Wedo.jpg)
+![Wedo_Workspace](/AWS_C3D1_WEDO/images/2-Proposal/Blog_Wedo.jpg)
 
 *Dịch vụ AWS sử dụng*  
 - *Amazon Route 53 & AWS WAF*: Phân giải tên miền (DNS) và bảo vệ hệ thống khỏi các cuộc tấn công web độc hại (DDoS, XSS, SQLi).

@@ -26,7 +26,7 @@ The Containerized system requires 2 distinct roles to execute and interact with 
   * `SecretsManagerReadWrite` (To read DB credentials securely)
 * Click **Next** → Role name: `WeDo-ECS-Task-Role` → **Create role**.
 
-![Create IAM Role](images/5-Workshop/5.3-IAM-Infrastructure/hinh-iam-role.jpg)
+![Create IAM Role](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/hinh-iam-role.jpg)
 *(Note: You must configure accurate permissions so that services can communicate internally).*
 
 ### 5.3.2. Network Infrastructure Setup (VPC Setup)
@@ -43,7 +43,7 @@ To prevent errors associated with manual subnet configurations, we will use the 
 * NAT gateways: **In 1 AZ** (To optimize costs instead of 1 per AZ)
 * Click **Create VPC** and wait for AWS to automatically provision the network routing.
 
-![Create VPC and Subnets](images/5-Workshop/5.3-IAM-Infrastructure/hinh-vpc-subnet.jpg)
+![Create VPC and Subnets](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/hinh-vpc-subnet.jpg)
 
 ### 5.3.3. Route 53 & WAFv2 Setup
 **Route 53 - DNS Configuration:**
@@ -68,7 +68,7 @@ To enhance security and minimize costs (by reducing the traffic load running thr
 * Security groups: Select the internal Security Group (allow Inbound Port 443 from the VPC CIDR range).
 * Click **Create endpoint**.
 
-![Create VPC Endpoint for Secrets Manager](images/5-Workshop/5.3-IAM-Infrastructure/hinh-endpoint-1.jpg)
+![Create VPC Endpoint for Secrets Manager](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/hinh-endpoint-1.jpg)
 
 **2. Endpoint for CloudWatch Logs (`wedo-cloudwatch-endpoint`):**
 * Similar to the step above, create a new Endpoint.
@@ -76,11 +76,11 @@ To enhance security and minimize costs (by reducing the traffic load running thr
 * Configure VPC, Subnets, and Security Group identical to the Secrets Manager Endpoint.
 * Click **Create endpoint** and wait for the status to change to **Available**.
 
-![Create VPC Endpoint for CloudWatch](images/5-Workshop/5.3-IAM-Infrastructure/hinh-endpoint-2.jpg)
+![Create VPC Endpoint for CloudWatch](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/hinh-endpoint-2.jpg)
 
 **Verification Results:** After a few minutes, both Endpoints will successfully transition to the active state.
 
-![Endpoint Verification Results](images/5-Workshop/5.3-IAM-Infrastructure/endpoint_ket_qua.png)
+![Endpoint Verification Results](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/endpoint_ket_qua.png)
 
 ### 5.3.5. Initialize NAT Gateway and Configure Route Tables
 To allow resources located in the internal network (Private Subnets) such as ECS Fargate or RDS to access the Internet (e.g., to pull Docker images or call external APIs) while maintaining security against unsolicited inbound traffic, we need to establish a NAT Gateway.
@@ -91,18 +91,18 @@ To allow resources located in the internal network (Private Subnets) such as ECS
 * Subnet: You must select a **Public Subnet** (e.g., `wedo-workspace-subnet-public1`).
 * Elastic IP allocation: Select **Allocate Elastic IP** to have AWS allocate a static IP for the NAT.
 * Click **Create NAT gateway** and wait a few minutes for the status to transition to *Available*.
-![Initialize NAT Gateway](images/5-Workshop/5.3-IAM-Infrastructure/nat-create.jpg)
-![NAT Gateway Succeeded](images/5-Workshop/5.3-IAM-Infrastructure/nat-success.png)
+![Initialize NAT Gateway](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/nat-create.jpg)
+![NAT Gateway Succeeded](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/nat-success.png)
 
 **Step 2: Update Route Table for Private Subnets**
 * Navigate to the **Route tables** menu in the VPC dashboard.
 * Search for and select the Route Table associated with the **Private Subnets** (e.g., `wedo-workspace-rtb-private`).
-![Select Private Route Table](images/5-Workshop/5.3-IAM-Infrastructure/rtb-private.jpg)
+![Select Private Route Table](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/rtb-private.jpg)
 * Switch to the **Routes** tab → Click **Edit routes**.
 * Click **Add route**:
   * Destination: `0.0.0.0/0` (Represents all outbound Internet traffic).
   * Target: Select **NAT Gateway** and point to the `wedo-nat-gateway` created in Step 1.
 * Click **Save changes** to apply.
-![Point Route to NAT Gateway](images/5-Workshop/5.3-IAM-Infrastructure/rtb-save-route.png)
+![Point Route to NAT Gateway](/AWS_C3D1_WEDO/images/5-Workshop/5.3-IAM-Infrastructure/rtb-save-route.png)
 
 From this point on, Containers residing in the Private Subnets can securely access the Internet through the NAT Gateway.

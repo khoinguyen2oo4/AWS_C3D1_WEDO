@@ -59,9 +59,9 @@ Tham gia sự kiện **“GameDay - 8 Đội Tranh Hùng”** là một trong nh
 
 *Hình ảnh đội thi đấu*
 
-![Event GameDay](images/4-EventParticipated/event3/event3-1.JPG)
+![Event GameDay](/AWS_C3D1_WEDO/images/4-EventParticipated/event3/event3-1.JPG)
 
 *Minh chứng*
-![Event GameDay](images/4-EventParticipated/event3/event3-2.JPG)
+![Event GameDay](/AWS_C3D1_WEDO/images/4-EventParticipated/event3/event3-2.JPG)
 
 > Tổng thể, sự kiện GameDay không chỉ là một cuộc thi, mà là một buổi diễn tập thực chiến hoàn hảo. Nó giúp tôi tự tin hơn rất nhiều vào khả năng vận hành AWS của bản thân và rèn luyện được tinh thần thép khi đối mặt với các sự cố hệ thống thực tế.
