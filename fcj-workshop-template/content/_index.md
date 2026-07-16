@@ -14,7 +14,7 @@ chapter: false
 
 | 📸 Avatar | 📝 Profile Details |
 | :---: | :--- |
-| <img src="images/avatar.jpg" width="160" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> | **Full Name:** Nguyen Dinh Khoi<br>**Phone:** 0967999015<br>**Email:** khoinguyen0014@gmail.com<br>**University:** Ho Chi Minh City University of Technology (HUTECH)<br>**Major:** Information Technology<br>**Class:** 22DTHA1<br>**Company:** Amazon Web Services Vietnam Company Limited<br>**Internship Period:** 17/04/2026 – 30/07/2026 |
+| <img src="/AWS_C3D1_WEDO/images/avatar.jpg" width="160" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> | **Full Name:** Nguyen Dinh Khoi<br>**Phone:** 0967999015<br>**Email:** khoinguyen0014@gmail.com<br>**University:** Ho Chi Minh City University of Technology (HUTECH)<br>**Major:** Information Technology<br>**Class:** 22DTHA1<br>**Company:** Amazon Web Services Vietnam Company Limited<br>**Internship Period:** 17/04/2026 – 30/07/2026 |
 
 ---
 
