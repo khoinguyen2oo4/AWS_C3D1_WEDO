@@ -25,7 +25,7 @@ Unlike conventional applications, WeDo is built based on modern AWS cloud comput
 ### 3. Solution Architecture  
 The WeDo Workspace platform applies Containerization architecture on AWS with a Multi-Availability Zone (Multi-AZ) model to manage workflows and project documents. The static web interface is stored on S3 and distributed at ultra-high speed via CloudFront, protected by WAF. Dynamic API processing flows are routed through an Application Load Balancer (ALB) to Backend containers (Spring Boot) running on Amazon ECS placed in a Private Subnet. System data is securely stored and synchronized through Amazon RDS (Database) and Amazon EFS, while user submission documents are pushed directly to S3.
 
-![Wedo_Workspace](/images/2-Proposal/Blog_Wedo.jpg)
+![Wedo_Workspace](images/2-Proposal/Blog_Wedo.jpg)
 
 *AWS services used* - *Amazon Route 53 & AWS WAF*: Domain Name System (DNS) resolution and system protection from malicious web attacks (DDoS, XSS, SQLi).
 - *Amazon CloudFront*: Content Delivery Network (CDN) helping to route and load static interfaces quickly.

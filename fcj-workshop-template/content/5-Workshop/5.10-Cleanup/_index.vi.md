@@ -14,7 +14,7 @@ Thay vì thao tác thủ công trên AWS Console, quản trị viên có thể s
 
 #### Bước 1: Dọn dẹp tầng Lõi (App & Data)
 Bao gồm cụm máy chủ ECS, Application Load Balancer, và hệ thống cơ sở dữ liệu.
-![Cleanup Core](/images/5-Workshop/5.10-Cleanup/Det_App&Data.jpg)
+![Cleanup Core](images/5-Workshop/5.10-Cleanup/Det_App&Data.jpg)
 
 **Xóa cơ sở dữ liệu RDS PostgreSQL (Bỏ qua khâu tạo bản sao lưu cuối cùng):**
 ```bash
@@ -41,7 +41,7 @@ aws elbv2 delete-load-balancer \
 
 #### Bước 2: Dọn dẹp tầng Mạng (Network)
 Bao gồm các cổng giao tiếp và định tuyến nội bộ.
-![Cleanup Network](/images/5-Workshop/5.10-Cleanup/Det_Network.jpg)
+![Cleanup Network](images/5-Workshop/5.10-Cleanup/Det_Network.jpg)
 
 **Xóa NAT Gateway (Tài nguyên ngốn tiền nhất):**
 ```bash
@@ -54,7 +54,7 @@ aws ec2 delete-nat-gateway \
 
 #### Bước 3: Dọn dẹp tầng Biên (Global & Edge)
 Cuối cùng, xóa bỏ bộ nhớ đệm phân phối nội dung tĩnh và lớp bảo vệ bên ngoài.
-![Cleanup Edge](/images/5-Workshop/5.10-Cleanup/Det_Global.jpg)
+![Cleanup Edge](images/5-Workshop/5.10-Cleanup/Det_Global.jpg)
 
 **Xóa toàn bộ dữ liệu và Bucket S3 Frontend:**
 ```bash

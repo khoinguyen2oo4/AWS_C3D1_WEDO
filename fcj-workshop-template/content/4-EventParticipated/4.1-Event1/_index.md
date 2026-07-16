@@ -53,4 +53,4 @@ True to the spirit of *"We showed up to share. We left with more than we came wi
 #### Some Evidence Photos of Event Participation:
 
 *Slide introducing Engineering-standard Code*
-![Engineering-standard Code](/images/4-EventParticipated/event1/event1.jpg)
+![Engineering-standard Code](images/4-EventParticipated/event1/event1.jpg)

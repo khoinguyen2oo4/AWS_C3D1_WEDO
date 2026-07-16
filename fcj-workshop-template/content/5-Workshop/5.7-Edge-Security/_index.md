@@ -15,7 +15,7 @@ Instead of letting users access S3 directly (which has high latency if far away)
 * **Origin:**
   * Origin type: Select **Amazon S3**.
   * Origin domain: Select the `wedo-frontend-2026` Bucket containing the React source code.
-![Configure CloudFront Origin](/images/5-Workshop/5.7-Edge-Security/cloudfront-origin.jpg)
+![Configure CloudFront Origin](images/5-Workshop/5.7-Edge-Security/cloudfront-origin.jpg)
 
 ### 5.7.2. Integrate Web Application Firewall (AWS WAF)
 WAF is integrated directly into CloudFront to filter malicious traffic flows (e.g., Layer 7 DDoS, SQL Injection, XSS) before they can reach S3 or the Backend.
@@ -23,10 +23,10 @@ WAF is integrated directly into CloudFront to filter malicious traffic flows (e.
 * Under the **Enable security** section while creating CloudFront:
   * Check to enable **Web Application Firewall (WAF)**.
   * This option helps automatically block high-risk IPs based on AWS's threat intelligence system.
-![Enable WAF Security for CloudFront](/images/5-Workshop/5.7-Edge-Security/cloudfront-waf.png)
+![Enable WAF Security for CloudFront](images/5-Workshop/5.7-Edge-Security/cloudfront-waf.png)
 
 * Scroll to the bottom, double-check all information in the **Review and create** section, and click **Create distribution**.
-![Confirm CloudFront Creation](/images/5-Workshop/5.7-Edge-Security/cloudfront-create.jpg)
+![Confirm CloudFront Creation](images/5-Workshop/5.7-Edge-Security/cloudfront-create.jpg)
 
 ### 5.7.3. Domain Name Routing (Amazon Route 53)
 To allow users to access via an easy-to-remember domain name (e.g., `wedo-workspace.com`) instead of a long CloudFront URL, we use Amazon Route 53.

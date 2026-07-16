@@ -14,7 +14,7 @@ chapter: false
 
 | 📸 Ảnh đại diện | 📝 Chi tiết Hồ sơ |
 | :---: | :--- |
-| <img src="/images/avatar.jpg" width="160" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> | **Họ và tên:** Nguyễn Đình Khôi<br>**Điện thoại:** 0967999015<br>**Email:** khoinguyen0014@gmail.com<br>**Trường:** Đại học Công nghệ TP.HCM (HUTECH)<br>**Ngành:** Công nghệ thông tin<br>**Lớp:** 22DTHA1<br>**Công ty:** Công ty TNHH Amazon Web Services Viet Nam<br>**Thời gian thực tập:** 17/04/2026 – 30/07/2026 |
+| <img src="images/avatar.jpg" width="160" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> | **Họ và tên:** Nguyễn Đình Khôi<br>**Điện thoại:** 0967999015<br>**Email:** khoinguyen0014@gmail.com<br>**Trường:** Đại học Công nghệ TP.HCM (HUTECH)<br>**Ngành:** Công nghệ thông tin<br>**Lớp:** 22DTHA1<br>**Công ty:** Công ty TNHH Amazon Web Services Viet Nam<br>**Thời gian thực tập:** 17/04/2026 – 30/07/2026 |
 
 ---
 

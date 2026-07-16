@@ -17,7 +17,7 @@ Bài viết giới thiệu kiến trúc thực chiến ứng dụng nền tảng
 * **Kiến trúc Microservices tách rời (Decoupled):** Giao diện người dùng (Frontend) phát triển bằng Flutter giao tiếp hoàn toàn độc lập với luồng xử lý Backend thông qua các API endpoint. Điều này giúp hệ thống linh hoạt, dễ dàng thay thế hoặc mở rộng sang các model Computer Vision tự huấn luyện trong tương lai mà không ảnh hưởng đến trải nghiệm người dùng.
 * **Khả năng quan sát và lưu trữ an toàn:** Lưu trữ toàn bộ hình ảnh gốc an toàn trên Amazon S3 phục vụ cho việc tracking sau này, đồng thời giám sát chặt chẽ hiệu năng, độ trễ và lỗi (exceptions) của hệ thống thông qua Amazon CloudWatch.
 
-![Sơ đồ kiến trúc AI Diet Tracker](/images/3-blogsposted/blog1/blog1.jpg)
+![Sơ đồ kiến trúc AI Diet Tracker](images/3-blogsposted/blog1/blog1.jpg)
 
 
 

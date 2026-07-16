@@ -15,4 +15,4 @@ Hệ thống hiện tại thỏa mãn các tiêu chuẩn của AWS Well-Architec
 ### 5.9.2. Môi trường Production
 * Giao diện người dùng đang được phân phối toàn cầu ở tốc độ siêu cao qua mạng biên (S3 + CloudFront).
 * Backend hoạt động ổn định và xử lý hàng ngàn request đồng thời phía sau Application Load Balancer một cách an toàn trong Private Subnet.
-![Màn hình Go-live](/images/5-Workshop/5.9-Deployment/wedo-live.jpg)
+![Màn hình Go-live](images/5-Workshop/5.9-Deployment/wedo-live.jpg)
