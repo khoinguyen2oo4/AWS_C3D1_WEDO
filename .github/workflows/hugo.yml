@@ -48,18 +48,23 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      
+      # ĐÃ SỬA: Ép Hugo chui vào đúng thư mục chứa web để build
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
+            -s fcj-workshop-template \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+            
+      # ĐÃ SỬA: Lấy file HTML tĩnh (public) từ đúng thư mục đó đẩy lên web
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./fcj-workshop-template/public
 
   # Deployment job
   deploy:
