@@ -73,14 +73,3 @@ AWS_C3D1_WEDO/
 ├── 6-Self-evaluation/        # Tự đánh giá năng lực
 ├── 7-Feedback/               # Đóng góp ý kiến
 └── README.md                 # Executive Summary (Bạn đang xem file này)
-```---
-
-👤 Thông tin
-Nguyễn Đình Khôi — Sinh viên Ngành Công nghệ thông tin, Đại học Công nghệ TP.HCM (HUTECH) - Lớp 22DTHA1.
-Đam mê theo đuổi con đường Cloud/AI Engineer, kết hợp giữa tư duy phân tích hệ thống và kỹ năng thực chiến hạ tầng trên nền tảng điện toán đám mây.
-
-📧 Email: khoinguyen0014@gmail.com
-
-🏢 Thực tập: AWS First Cloud AI Journey (FCAJ) — Workforce Bootcamp
-
-🗓️ Thời gian: 17/04/2026 – 30/07/2026
