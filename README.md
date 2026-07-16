@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="ĐIỀN_LINK_BÁO_CÁO_WORKSHOP_VÀO_ĐÂY"><strong>🌐 Báo cáo Workshop cá nhân</strong></a> | 
+  <a href="https://khoinguyen2oo4.github.io/AWS_C3D1_WEDO/"><strong>🌐 Báo cáo Workshop cá nhân</strong></a> | 
   <a href="https://drive.google.com/file/d/19jLMrXjSZSN6gKfXB3MJ4Kub92MRf-f-/view?usp=sharing"><strong>🎥 Video Demo</strong></a> | 
   <a href="https://tinyurl.com/Wedo-c3d1"><strong>🚀 Trải nghiệm WeDo Workspace</strong></a>
 </p>
